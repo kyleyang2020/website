@@ -49,6 +49,7 @@ body {
 }
 
 .heading {
+    margin-top: 30px;
     width:100%;
     text-align: center;
     font-size: 30px;

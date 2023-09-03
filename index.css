@@ -12,7 +12,7 @@ body {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    background-color: rgb(189, 189, 129);
+    background-color: rgb(220,220,245);
 }
 
 .site-title a {
@@ -44,7 +44,7 @@ body {
 }
 
 .navbar-links ul li .hero-link:hover {
-    background-color: rgb(84, 214, 208);
+    background-color: rgb(198,198,220);
     border: 2px solid black;
 }
 
@@ -58,7 +58,7 @@ body {
 }
 
 .content-container {
-    background-color: rgb(62, 180, 141);
+    background-color: rgb(220,220,245);
     width:50%;
     text-align: center;
     margin-top: 20px;
@@ -72,4 +72,114 @@ body {
 
 .description {
     margin-top: 20px;
+}
+
+/* Profile CSS for resume part */
+
+.heading {
+    margin-top: 30px;
+    width:100%;
+    text-align: center;
+    font-size: 30px;
+    color:black;
+}
+.container {
+    margin-top: 50px;
+    word-wrap: break-word;
+}
+.top-row {
+    width:100%;
+    display:flex;
+    justify-content: flex-start;
+    margin-top: 50px;
+}
+
+.profile-section {
+    width: 30%;
+    position: relative;
+}
+
+.avatar-section {
+    width:100%;
+    display: flex;
+    justify-content: center;
+}
+.avatar-circle {
+    margin-top: -50px;
+    z-index:2;
+    border-radius: 50%;
+}
+.portrait-title {
+    margin-top: 15px;
+    width:100%;
+    text-align: center;
+    color:black;
+}
+.portrait-title h2 {
+    font-size:25px;
+}
+
+.portrait-title h3 {
+    font-size:20px;
+}
+
+.obj {
+    width:66%;
+}
+.obj h5 {
+    font-size: 40px;
+}
+.obj p {
+    font-size: 25px;
+}
+.middle-row {
+    width:100%;
+    display:flex;
+    justify-content: flex-start;
+    margin-top: 80px;
+    
+}
+.middle-row li {
+    margin-top: 20px;
+}
+.category {
+    width:30%;
+}
+h4 {
+    font-size: 50px;
+    color:black;
+    opacity:0.9;
+}
+.category h4 {
+    margin-left:100px;
+}
+@media screen and (max-width:1400px) {
+    .category h4 {
+        margin-left:50px;
+    }
+}
+
+.info {
+    width: 66%;
+    color:black;
+}
+.info p {
+    display: inline;
+    font-size: 25px;
+    opacity:0.9;
+}
+
+.loc-info {
+    display: flex;
+    justify-content: space-between;
+}
+h5{
+    font-style: bold;
+    font-size: 35px;
+    opacity:0.9;
+}
+.loc-info span{
+    font-size: 25px;
+    font-style: italic;
+    opacity:0.9;
 }
